@@ -1,0 +1,11 @@
+#3) Escreva um programa que leia diversos números inteiros positivos e exiba o dobro de cada um. A leitura deve ser interrompida quando for digitado um número negativo.
+dobro = 0
+
+while True:
+    a = int(input("Digite um numero inteiro postivio:"))
+    if a <= 0:
+        print("Vai se fude")
+        break
+    elif a != 0:
+        dobro = a * 2
+    print("O dobro de", a, "é", dobro)
