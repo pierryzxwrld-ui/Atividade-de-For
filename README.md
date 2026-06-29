@@ -1,2 +1,0 @@
-# Atividade-de-For
-python
