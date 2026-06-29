@@ -1,0 +1,16 @@
+#4) Cada espectador de um cinema respondeu a um questionário com a seguinte pergunta: Qual a sua opinião sobre o filme? As opções de resposta foram: 3 – Ótimo, 2 – Bom e 1 – Regular Escreva um programa que leia as respostas de 15 espectadores e informe:  A quantidade de pessoas que responderam "Ótimo";  A quantidade de pessoas que responderam "Bom";  A quantidade de pessoas que responderam "Regular"
+otimo = 0
+bom = 0
+regular = 0
+
+for i in range(15):
+    resposta = int(input("Digite sua opinião (3-Ótimo, 2-Bom, 1-Regular): "))
+    if resposta == 3:
+        otimo = otimo + 1
+    elif resposta == 2:
+        bom = bom + 1
+    elif resposta == 1:
+        regular = regular + 1
+print("Ótimo:", otimo)
+print("Bom:", bom)
+print("Regular:", regular)
