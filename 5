@@ -1,0 +1,9 @@
+#5) Escreva um programa que repita as seguintes etapas até que o usuário digite a palavra "nao": i. Leia a distância percorrida por um atleta (em Km); ii. Leia o tempo gasto para percorrer essa distância (em horas); iii. Calcule e exiba a velocidade média do atleta (velocidade = distância / tempo); iv. Pergunte ao usuário se deseja continuar utilizando o programa (respostas possíveis: "sim" ou "nao").
+continuar = "sim"
+
+while continuar != "nao":
+    dist = float(input("Digite a distância percorrida (em km): "))
+    tempo = float(input("Digite o tempo gasto (em horas): "))
+    velocidade = dist / tempo
+    print("A velocidade media é:", velocidade, "km/h")
+    continuar = input("Deseja calcular novamente:(sim/nao)")
